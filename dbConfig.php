@@ -4,6 +4,7 @@
     $userName = 'root';
 
     try {
+        //PDOクラスはDB操作するクラス
         $db = new PDO($dbName, $userName);
         var_dump('success');
 
