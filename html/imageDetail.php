@@ -14,10 +14,10 @@
 
   <div class="detailImageBox">
     <div class="detailImage">
-    <img src="../images/<?php echo $data['image']['file_name']; ?> " alt="投稿画像">
+    <img src="../images/<?php echo $data['image_test']['file_name']; ?> " alt="投稿画像">
       <div class="detailImagButton">
         <button class="updateButton">更新</button>
-        <button class="deleteButton">削除</button>
+        <button class="deleteButton" onclick="location.href='../deleteImage.php?id=<?php echo $_GET['id']; ?>';">削除</button>
       </div>
       <button onclick="location.href='./index.php';">戻る</button>
     </div>

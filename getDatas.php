@@ -20,7 +20,7 @@
         // exeute関数で実効
         $sth->execute();
         //fetch関数で1レコード分取り出す
-        $data['image'] = $sth->fetch();
+        $data['image_test'] = $sth->fetch();
   
 
 
