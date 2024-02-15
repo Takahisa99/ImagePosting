@@ -10,8 +10,7 @@
 <body>
   <?php include('./header.php') ?>
   <div class="submitImage">
-    <!-- actionでファイルのパス指定することでファイルを読み込まれ実行する -->
-    <form action="../postImage.php" method="post" enctype="multipart/form-data">
+      <form action="../postImage.php" method="post" enctype="multipart/form-data">
       <img id="preview">
       <input type="file" name="file" onchange="previewFile(this);">
       <button type="submit" name="submit">送信</button>

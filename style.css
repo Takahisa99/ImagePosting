@@ -538,8 +538,6 @@ button {
 }
 
 textarea {
-  width: 90%;
-  height: 100px;
   resize: none;
   border: 1px solid #ccc;
   margin: 20px 0;
